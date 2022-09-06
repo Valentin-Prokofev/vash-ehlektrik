@@ -258,6 +258,7 @@ p {
 .team__inner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 -15px;
 }
 
@@ -273,7 +274,7 @@ p {
     display: block;
     max-width: 100%;
     height: auto;
-    opacity: 0.2;
+    /*opacity: 0.2;*/
 }
 
 .team__name {
@@ -362,7 +363,14 @@ p {
 }
 
 /* ===================================================================TESTIMONIALS */
+.testimonials{
+    background-color: #cddcd5;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
 .slider_title {
+    font-size: 40px;
     text-align: center;
 }
 
@@ -374,9 +382,15 @@ p {
 
 .slider_item {
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
     max-height: 600px;
     text-align: center;
+}
+
+.slider_item p {
+    font-size: 19px;
+    font-style: italic;
+    color: #2A2D48;
 }
 
 /*.slider_item p {*/
@@ -520,6 +534,10 @@ p {
 
 .follow li:not(:first-child){
     margin-left: 20px;
+}
+
+.form_social_header {
+    margin-top: 75px;
 }
 
 svg:hover path{
