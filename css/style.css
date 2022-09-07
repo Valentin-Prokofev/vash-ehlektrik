@@ -783,6 +783,11 @@ svg:hover path{
         font-size: 40px;
     }
 
+    /* ABOUT SERVICES  */
+    .about_services_item {
+        width: 50%;
+    }
+
     /* FUTURE  */
     .feature__item {
         width: 50%;
@@ -837,6 +842,11 @@ svg:hover path{
         margin-bottom: 30px;
 
         font-size: 15px;
+    }
+
+    /* ABOUT SERVICES  */
+    .about_services_item {
+        font-size: 20px;
     }
 
     /* FUTURE  */
@@ -925,6 +935,12 @@ svg:hover path{
 
 
 @media (max-width: 414px) {
+
+    /* ABOUT SERVICES  */
+    .about_services_item {
+        width: 100%;
+    }
+
     .testimonials__img {
         right: -100px;
     }
