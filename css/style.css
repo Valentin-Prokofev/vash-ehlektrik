@@ -305,6 +305,27 @@ p {
     color: #6C7279;
 }
 
+
+/* ==================================================================STABILIZERS */
+.stabilizers {
+    margin: 100px 0;
+}
+
+.stabilizers_title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.stabilizers_text {
+    font-size: 30px;
+}
+
+.stabilizers_text_sale {
+    color: #ff0000;
+}
+
+
 /* ==================================================================SOCIAL */
 
 .social {
