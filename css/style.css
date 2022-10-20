@@ -186,7 +186,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: 100px 0;
-    padding:  0 30px;
+    padding: 0 30px;
     color: #333;
 }
 
@@ -241,7 +241,7 @@ p {
 
 /* ==================================================================WORKS */
 .works {
-   padding: 100px 0;
+    padding: 100px 0;
     background-color: #cddcd5;
 }
 
@@ -396,7 +396,7 @@ p {
 }
 
 /* ===================================================================TESTIMONIALS */
-.testimonials{
+.testimonials {
     background-color: #cddcd5;
     margin: 0 auto;
     padding: 70px 0;
@@ -411,7 +411,7 @@ p {
     position: relative;
     margin: 30px 0 40px 0;
     text-align: center;
- }
+}
 
 .slider_item {
     margin: 0 auto;
@@ -430,44 +430,77 @@ p {
 /*    text-align: center;*/
 /*}*/
 /* Слайдер */
-.slick-slider{}
+.slick-slider {
+}
+
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {
+}
+
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {
+}
+
 /* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden;
 }
+
 /* Лента слайдов */
-.slick-track{
+.slick-track {
     display: flex;
 }
+
 /* Слайд */
-.slick-slide{}
+.slick-slide {
+}
+
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {
+}
+
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {
+}
+
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {
+}
+
 /* Клонированный слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {
+}
+
 /* Стрелка */
-.slick-arrow{}
+.slick-arrow {
+}
+
 /* Стрелка влево */
-.slick-arrow.slick-prev{}
+.slick-arrow.slick-prev {
+}
+
 /* Стрелка вправо */
-.slick-arrow.slick-next{}
+.slick-arrow.slick-next {
+}
+
 /* Стрелка не активная */
-.slick-arrow.slick-disabled{}
+.slick-arrow.slick-disabled {
+}
+
 /* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
+.slick-dots {
+}
+
+.slick-dots li {
+}
+
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {
+}
+
 /* Элемент точки */
-.slick-dots li button{}
+.slick-dots li button {
+}
 
 .slider .slick-arrow {
     position: absolute;
@@ -534,6 +567,7 @@ p {
     font-weight: 500;
     text-transform: uppercase;
 }
+
 /*//////////////////////////////////////////////////////////FORM_INFO*/
 .form_info {
     flex: 0 0 auto;
@@ -555,6 +589,7 @@ p {
     font-size: 18px;
     color: #dee3e4;
 }
+
 .phone_svg,
 .mail_svg {
     margin-right: 10px;
@@ -574,7 +609,7 @@ p {
     padding: 0;
 }
 
-.follow li:not(:first-child){
+.follow li:not(:first-child) {
     margin-left: 20px;
 }
 
@@ -582,9 +617,10 @@ p {
     margin-top: 75px;
 }
 
-svg:hover path{
-    fill:yellow;
+svg:hover path {
+    fill: yellow;
 }
+
 /*/////////////////////////////////////////////////////////////////FORMS*/
 .forms {
     flex: 0 0 auto;
@@ -644,7 +680,7 @@ svg:hover path{
     border: 1px solid #343a40;
     appearance: none;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .form_control:focus {
@@ -664,7 +700,7 @@ svg:hover path{
     text-align: center;
 }
 
-.form_btn{
+.form_btn {
     font-family: "Poppins", sans-serif;
     padding: 12px 45px;
     font-size: 20px;
@@ -725,10 +761,12 @@ svg:hover path{
         width: 100%;
         padding: 0;
     }
+
     .form_email_input {
         margin-top: 24px;
     }
 }
+
 /* ===========================================1300px  */
 
 @media (max-width: 1300px) {
@@ -746,7 +784,6 @@ svg:hover path{
     }
 
     /* NAV  */
-
     .nav {
         display: none;
         width: 100%;
@@ -815,13 +852,8 @@ svg:hover path{
     }
 
     /*ABOUT COMPANY*/
-
     .about p {
         font-size: 25px;
-    }
-
-    .about_company {
-        /*text-align: center;*/
     }
 
     /* ABOUT SERVICES  */
@@ -852,7 +884,7 @@ svg:hover path{
     }
 
     /*STABILIZERS*/
-    .stabilizers p{
+    .stabilizers p {
         font-size: 25px;
     }
 
@@ -877,6 +909,16 @@ svg:hover path{
     .intro__title {
         font-size: 40px;
     }
+
+    /*TESTIMONIALS*/
+    .slider_testimonials {
+        display: none;
+    }
+
+    .testimonials_avito {
+        font-size: 20px;
+        margin-top: 30px;
+    }
 }
 
 /* ===========================================767px  */
@@ -897,6 +939,11 @@ svg:hover path{
         margin-bottom: 30px;
 
         font-size: 15px;
+    }
+
+    /*ABOUT COMPANY*/
+    .about p {
+        font-size: 20px;
     }
 
     /* ABOUT SERVICES  */
@@ -931,6 +978,11 @@ svg:hover path{
         width: 100%;
     }
 
+    /*STABILIZERS*/
+    .stabilizers p {
+        font-size: 20px;
+    }
+
     /* TESTIMONIALS  */
     .testimonials__text {
         font-size: 25px;
@@ -950,7 +1002,6 @@ svg:hover path{
 }
 
 
-
 /* ===========================================750px  */
 
 @media screen and (max-width: 750px) {
@@ -958,6 +1009,7 @@ svg:hover path{
         flex-direction: column;
         align-items: center;
     }
+
     .forms {
         order: 0;
         display: flex;
@@ -992,10 +1044,15 @@ svg:hover path{
         justify-content: center;
     }
 }
+
 /* ===========================================414px  */
 
 
 @media (max-width: 414px) {
+    /*HEADER*/
+    .header_icons {
+        justify-content: space-around;
+    }
 
     /* ABOUT SERVICES  */
     .about_services_item {
@@ -1007,5 +1064,45 @@ svg:hover path{
     }
 }
 
+/*=================================================390px*/
+@media (max-width: 390px) {
+    /*ABOUT-COMPANY*/
+    .about_company h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    /*ABOUT-SERVICES*/
+    .about_services h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    /*WORKS*/
+    .works {
+        padding: 50px 0;
+    }
+
+    .works h1 {
+        color: #000;
+        font-size: 30px;
+    }
+
+    /*TEAM*/
+    .team h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /*STABILIZERS*/
+    .stabilizers_title {
+        margin-bottom: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
 
 
