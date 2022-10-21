@@ -33,7 +33,7 @@ $(function() {
         event.preventDefault();
 
         let elementId = $(this).data("scroll");
-        let elementOffset = $(elementId).offset().top;
+        let elementOffset = $(elementId).offset().top - 50;
 
         nav.removeClass("show");
 
