@@ -49,20 +49,6 @@ $(function() {
 
         nav.toggleClass("show");
     });
-
-    //Testimonials:https://kenwheeler.github.io/slick/
-
-    // let slider = $("#testimonialsSlider");
-    //
-    // slider.slick({
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     fade: true,
-    //     arrows: false,
-    //     dots: true
-    //   });
-
 });
 
 $(document).ready(function (){
