@@ -1,5 +1,4 @@
 $(function() {
-
     // Fixed Header
 
     let header = $("#header");
@@ -51,6 +50,7 @@ $(function() {
     });
 });
 
-$(document).ready(function (){
-    $('.slider').slick()
-})
+// $(document).ready(function (){
+//     $('.slider').slick()
+// })
+

@@ -137,14 +137,6 @@ p {
     color: #fff;
 }
 
-/*.intro__subtitle {*/
-/*    margin-bottom: 80px;*/
-/*    font-size: 22px;*/
-/*    font-weight: 400;*/
-/*    line-height: 1.5;*/
-/*    color: #fff;*/
-/*}*/
-
 /* ==================================================================BUTTON */
 
 .btn {
@@ -291,16 +283,19 @@ p {
     height: 100px;
     border: none;
 }
+
 .slider2 .slick-arrow.slick-prev,
 .slider .slick-arrow.slick-prev {
     left: 0;
     background: url("../img/testimonials/loon-icon-arrow-left.svg") 0 0 / 100% no-repeat;
 }
+
 .slider2 .slick-arrow.slick-next,
 .slider .slick-arrow.slick-next {
     right: 0;
     background: url("../img/testimonials/loon-icon-arrow-right.svg") 0 0 / 100% no-repeat;
 }
+
 /*пагинация*/
 .slider2 .slick-dots,
 .slider .slick-dots {
@@ -309,12 +304,14 @@ p {
     justify-content: center;
     padding-left: 0px;
 }
+
 .slider2 .slick-dots li,
 .slider .slick-dots li {
     list-style-type: none;
     padding-left: 0px;
     margin: 0 10px;
 }
+
 .slider2 .slick-dots button,
 .slider .slick-dots button {
     font-size: 0;
@@ -323,8 +320,9 @@ p {
     background-color: #ef4040;
     border-radius: 50%;
 }
+
 .slider2 .slick-dots li.slick-active button,
-.slider .slick-dots li.slick-active button{
+.slider .slick-dots li.slick-active button {
     background-color: transparent;
 }
 
@@ -786,7 +784,7 @@ svg:hover path {
         right: 0;
         top: 82px;
 
-        background-color: #2A2D48;
+        background-color: #000;
     }
 
     .nav.show {
@@ -905,7 +903,6 @@ svg:hover path {
     /*.slider_testimonials {*/
     /*    display: none;*/
     /*}*/
-
     .testimonials_avito {
         font-size: 20px;
         margin-top: 30px;
